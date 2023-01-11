@@ -1,96 +1,48 @@
-# Election-DataSc-project
-The Election data science project 
+# The 20th Knesset - Election project ![Uploading VoteGIF.gif…]()
 
-מבנה פרויקט הגמר:
+Final project structure:
 
+1. Introduction: 
+1.1. General background on the business or the field from which the problem came. 
+1.2. Description of the problem from a business point of view. 
+1.3. Description of the data mining problem.
 
+2. The business problem:
+2.1. Description of the problem in business terms. 
+2.2. Description of the current situation in the business. 
+2.3. What business goals / why do we need the artificial intelligence solution?
 
-1
-. מבוא:
-1.1
-. רקע כללי על העסק או התחום ממנו הגיעה הבעיה.
-1.2
-. תיאור הבעיה מבחינה עסקית.
-1.3
-. תיאור הבעיה של כריית הנתונים.
+3. Artificial intelligence: 
+3.1. Description of the problem in terms of data mining/artificial intelligence. 
+3.2. Determining the objectives of the data mining/outputs of the system. 
 
+4. The data: 
+4.1. A detailed description of the required data includes the format, expected sizes, and required fields. 
+4.2. A detailed description of the data collection methods. 
+4.3. Assessment of data quality: missing data values, accuracy, and reliability. 
+4.4. Building data if necessary: attributes derived from other attributes, changing the values of existing attributes, completing missing values. 
+4.5. If there are separate tables, this should be considered.
 
-2
-. הבעיה העסקית:
-2.1
-. תיאור הבעיה במונחים עסקיים.
-2.2
-. תיאור המצב הקיים בעסק.
-2.3
-. מה המטרות העסקיות / למה צריך את הפתרון של הבינה המלאכותית?
+5. Models: 
+5.1. Review the models/algorithms that can solve the problem (up to 3 models).
+5.2. Description of the selected algorithm - a theoretical description as it exists in the literature; the reason for choosing this should be addressed. 
+5.3. Description of the selected algorithm in the context of the current problem (some algorithms require special adjustments such as Working with different types of data (for example: 
+5.3.1. Determining the parameters of the model - if necessary. 
+5.3.2. Determining/description of a distance function - if necessary. 
+5.4. Describing the output of the system.
 
+6. Implementation of the algorithm 
+6.1. Implementation of the algorithm on real/synthetic data.
 
-3
-. בינה מלאכותית:
-3.1
-. תיאור הבעיה במונחים של כריית נתונים/ בינה מלאכותית.
-3.2
-. קביעת המטרות של כריית הנתונים/ הפלטים של המערכת.
-4
+It is allowed to use existing libraries.
+The choice of tool you will use to visualize the algorithm is up to you.
+It is allowed to use the Internet and existing open-source code - the source must be cited.
+7. Evaluation of the model:
+7.1. The percentage of error.  
+7.2. Weighted assessment - f-score.  
+7.3. Explanations of reasons for the success and failure of the model/algorithm. 
+7.4. Visual display of the assessment.
 
-
-. הנתונים:
-4.1
-. תיאור מפורט של הנתונים הנדרשים: וזה כולל פורמט, גדלים צפויים, ושדות
-מפתח.
-4.2
-. תיאור מפורט של דרכי אסיפת הנתונים.
-4.3
-. הערכת איכות הנתונים: ערכים חסרים, דיוק ואמינות של הנתונים.
-4.4
-. בניית נתונים במידת הצורך: תכונות נגזרות מתכונות אחרות, שינוי בערכים של
-תכונות קיימות, השלמת ערכים חסרים.
-4.5
-. במידה ויש טבלאות נפרדות יש להתייחס לזה.
-
-
-5
-. מודלים:
-5.1
-. סקירת המודלים/האלגוריתמים שניתן להשתמש בהם לפתרון הבעיה )עד 3
-מודלים(.
-5.2
-. תיאור האלגוריתם שנבחר – תיאור תיאורטי כפי שזה קיים בספרות, יש להתייחס
-לסיבת הבחירה באלגוריתם זה.
-5.3
-. תיאור האלגוריתם שנבחר בהקשר לבעיה הנוכחית )חלק מהאלגוריתמים דורשים
-התאמות מיוחדות כמו עבודה עם סוגי נתונים שונים( למשל:
-5.3.1
-. קביעת הפרמטרים של המודל – במידת הצורך.
-5.3.2
-. קביעת/תיאור פונקציית מרחק – במידת הצורך.
-5.4
-. תיאור הפלט של המערכת.
-
-
-6
-. מימוש האלגוריתם
-6.1
-. מימוש האלגוריתם על נתונים אמתיים/סינטטיים 1 .
-- מותר להשתמש בספריות קיימות.
-- בחירת הכלי שתשתמשו בו כדי להמחיש את האלגוריתם היא לבחירתכם.
-- מותר להיעזר באינטרנט ובקוד פתוח קיים – חובה לצטט את המקור.
-
-
-7
-. הערכת המודל:
-7.1
-. אחוז השגיאה. 2
-7.2
-. הערכה משוקללת – score -f . 3
-7.3
-. הסברים על סיבות הצלחה וכישלון של המודל/האלגוריתם.
-7.4
-. תצוגה ויזואלית של ההערכה.
-
-8
-. תיקונים במודל המוצע )בונוס 10% :)
-8.1
-. מה התיקונים הנדרשים במודל המוצע כדי לשפר את הביצועים שלו.
-8.2
-. כיצד ניתן להטמיע את המודל במערכת האמתית של הארגון.
+8. Corrections in the proposed model (10% bonus) 
+8.1. What corrections are required in the proposed model to improve its performance? 
+8.2. How can the model be implemented in the real system of the organization?
