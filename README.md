@@ -1,4 +1,4 @@
-# The 20th Knesset - Election project ![Uploading VoteGIF.gif…]()
+# The 20th Knesset - Election project 📓
 
 Final project structure:
 
